@@ -1,17 +1,17 @@
 #include "DLinkedList.h"
 
-void baba();
+void allocateAndDelete();
 
 int main() {
 	
-	baba();
-	baba();
+	allocateAndDelete();
+	allocateAndDelete();
 
 
 	return 0;
 }
 
-void baba() {
+void allocateAndDelete() {
 	DLinkedList dll(0);
 	uint64_t nodeNum = 50000000;
 	for (size_t i = 1; i < nodeNum; i++)
